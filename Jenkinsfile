@@ -8,7 +8,12 @@ node {
         echo "hello"
     }
     
-    
+    stage('Clone') {
+      
+
+        checkout scm
+        echo "hi"
+    }
 
     stage('Build image') {
   

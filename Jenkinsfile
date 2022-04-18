@@ -7,10 +7,12 @@ node {
         checkout scm
     }
     
-     stage('Test') {
+     stage('Test project') {
   
-        echo "Tests passed"'
-        
+
+        steps {
+            sh 'echo "Tests passed"'
+        }
     }
     
 

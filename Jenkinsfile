@@ -11,8 +11,8 @@ node {
     stage('Clone') {
       
 
-        checkout scm
-        echo "hi"
+        
+        echo "good morning"
     }
 
     stage('Build image') {

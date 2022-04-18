@@ -5,6 +5,7 @@ node {
       
 
         checkout scm
+        echo "hello"
     }
     
     

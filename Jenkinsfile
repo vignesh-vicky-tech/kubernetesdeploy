@@ -7,7 +7,7 @@ node {
         checkout scm
     }
     
-     stage('Test image') {
+     stage('Test') {
   
         echo "Tests passed"'
         

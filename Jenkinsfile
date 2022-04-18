@@ -7,13 +7,6 @@ node {
         checkout scm
     }
     
-     stage('Test project') {
-  
-
-        steps {
-            sh 'echo "Tests passed"'
-        }
-    }
     
 
     stage('Build image') {

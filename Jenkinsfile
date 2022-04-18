@@ -6,6 +6,15 @@ node {
 
         checkout scm
     }
+    
+     stage('Test image') {
+  
+
+        app.inside {
+            sh 'echo "Tests passed"'
+        }
+    }
+    
 
     stage('Build image') {
   
